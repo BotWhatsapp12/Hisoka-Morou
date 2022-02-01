@@ -1,6 +1,6 @@
 /**
    * Create By Dika Ardnt.
-   * Contact Me on wa.me/6288292024190
+   * Contact Me on wa.me/6281229859085
    * Follow https://github.com/DikaArdnt
 */
 
@@ -212,7 +212,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
 
         switch(command) {
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74fd634010128be37972c.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 13k Per Group via E-Walet 1 Month\n⭔ 18k via pulsa 1 Month\n\n Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6288292024190 (Owner)\n\nDonate For Me : \n\n⭔ Paypal : https://www.paypal.me/Cakhaho\n⭔ Saweria : https://saweria.co/DikaArdnt` }, { quoted: m })
+                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74fd634010128be37972c.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 13k Per Group via E-Walet 1 Month\n⭔ 18k via pulsa 1 Month\n\n Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6281229859085 (Owner)\n\nDonate For Me : \n\n⭔ Paypal : https://www.paypal.me/Cakhaho\n⭔ Saweria : https://saweria.co/DikaArdnt` }, { quoted: m })
             }
             break
             case 'sc': {
@@ -648,7 +648,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
 ⭔ Channel : ${anu.author.url}
 ⭔ Description : ${anu.description}
 ⭔ Url : ${anu.url}`,
-                    footer: 'Hisoka Morrow',
+                    footer: 'GuraBotz by ArulGanz',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -728,7 +728,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                 let buttonMessage = {
                     image: { url: result.image[0] },
                     caption: `⭔ Title : ${result.title}\n⭔ Category : ${result.type}\n⭔ Detail : ${result.source}\n⭔ Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
-                    footer: 'Hisoka Morrow',
+                    footer: 'GuraBotz by ArulGanz',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -745,7 +745,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                 let buttonMessage = {
                     image: { url: result.image },
                     caption: `⭔ Title : ${result.title}\n⭔ Source : ${result.source}\n⭔ Media Url : ${result.image}`,
-                    footer: 'Hisoka Morrow',
+                    footer: 'GuraBotz by ArulGanz',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -782,7 +782,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             }
             break
 	    case 'nomerhoki': case 'nomorhoki': {
-                if (!Number(text)) throw `Example : ${prefix + command} 6288292024190`
+                if (!Number(text)) throw `Example : ${prefix + command} 6281229859085`
                 let anu = await primbon.nomer_hoki(Number(text))
                 if (anu.status == false) return m.reply(anu.message)
                 hisoka.sendText(m.chat, `⭔ *Nomor HP :* ${anu.message.nomer_hp}\n⭔ *Angka Shuzi :* ${anu.message.angka_shuzi}\n⭔ *Energi Positif :*\n- Kekayaan : ${anu.message.energi_positif.kekayaan}\n- Kesehatan : ${anu.message.energi_positif.kesehatan}\n- Cinta : ${anu.message.energi_positif.cinta}\n- Kestabilan : ${anu.message.energi_positif.kestabilan}\n- Persentase : ${anu.message.energi_positif.persentase}\n⭔ *Energi Negatif :*\n- Perselisihan : ${anu.message.energi_negatif.perselisihan}\n- Kehilangan : ${anu.message.energi_negatif.kehilangan}\n- Malapetaka : ${anu.message.energi_negatif.malapetaka}\n- Kehancuran : ${anu.message.energi_negatif.kehancuran}\n- Persentase : ${anu.message.energi_negatif.persentase}`, m)
@@ -1286,180 +1286,137 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     + 'N:;Dika Ardnt.;;;'
                     + 'FN:Dika Ardnt.\n' // full name
                     + 'ORG:Creator Bot;\n' // the organization of the contact
-                    + 'TEL;type=CELL;type=VOICE;waid=6288292024190:+62 882-9202-4190\n' // WhatsApp ID + phone number
+                    + 'TEL;type=CELL;type=VOICE;waid=6281229859085:+62 812-2985-9085\n' // WhatsApp ID + phone number
                     + 'END:VCARD'
 		let vcard2 = 'BEGIN:VCARD\n' // metadata of the contact card
                     + 'VERSION:3.0\n' 
                     + 'N:;Hisoka.;;;'
                     + 'FN:Hisoka.\n' // full name
                     + 'ORG:Owner Bot;\n' // the organization of the contact
-                    + 'TEL;type=CELL;type=VOICE;waid=6285784918313:+62 857-8491-8313\n' // WhatsApp ID + phone number
+                    + 'TEL;type=CELL;type=VOICE;waid=62815788590761:+62 815-7885-90761\n' // WhatsApp ID + phone number
                     + 'END:VCARD'
                 hisoka.sendMessage(m.chat, { contacts: { displayName: 'Yntkts.', contacts: [{ vcard: vcard1 }, { vcard: vcard2 }] } }, { quoted: m })
             }
             break
             case 'list': case 'menu': case 'help': case '?': {
                 anu = `
-┌──⭓ *Group Menu*
-│
-│⭔ ${prefix}linkgroup
-│⭔ ${prefix}ephemeral [option]
-│⭔ ${prefix}setpp
-│⭔ ${prefix}setname [text]
-│⭔ ${prefix}group [option]
-│⭔ ${prefix}add @user
-│⭔ ${prefix}kick @user
-│⭔ ${prefix}promote @user
-│⭔ ${prefix}demote @user
-│
-└───────⭓
-
-┌──⭓ *Downloader Menu*
-│
-│⭔ ${prefix}tiktoknowm [url]
-│⭔ ${prefix}tiktokwm [url]
-│⭔ ${prefix}tiktokmp3 [url]
-│⭔ ${prefix}instagram [url]
-│⭔ ${prefix}ig2 [url]
-│⭔ ${prefix}igreels [url]
-│⭔ ${prefix}igtv [url]
-│⭔ ${prefix}twitter [url]
-│⭔ ${prefix}twittermp3 [url]
-│⭔ ${prefix}facebook [url]
-│⭔ ${prefix}pinterestdl [url]
-│⭔ ${prefix}ytmp3 [url]
-│⭔ ${prefix}ytmp4 [url]
-│⭔ ${prefix}getmusic [query]
-│⭔ ${prefix}getvideo [query]
-│
-└───────⭓
-
-┌──⭓ *Search Menu*
-│
-│⭔ ${prefix}play [query]
-│⭔ ${prefix}yts [query]
-│⭔ ${prefix}pinterest [query]
-│⭔ ${prefix}wallpaper [query]
-│⭔ ${prefix}wikimedia [query]
-│⭔ ${prefix}ytsearch [query]
-│
-└───────⭓
-
-┌──⭓ *Random Menu*
-│
-│⭔ ${prefix}porno
-│⭔ ${prefix}hentai
-│⭔ ${prefix}quotesanime
-│⭔ ${prefix}motivasi
-│⭔ ${prefix}dilanquote
-│⭔ ${prefix}bucinquote
-│⭔ ${prefix}katasenja
-│⭔ ${prefix}puisi
-│
-└───────⭓
-
-┌──⭓ *Image Menu*
-│
-│⭔ ${prefix}anime
-│⭔ ${prefix}waifu
-│⭔ ${prefix}husbu
-│⭔ ${prefix}neko
-│⭔ ${prefix}shinobu
-│⭔ ${prefix}megumin
-│
-└───────⭓
-
-┌──⭓ *Game Menu*
-│
-│⭔ ${prefix}family100
-│⭔ ${prefix}tebak [option]
-│⭔ ${prefix}math [mode]
-│
-└───────⭓
-
-┌──⭓ *Primbon Menu*
-│
-│⭔ ${prefix}nomorhoki
-│⭔ ${prefix}artimimpi
-│⭔ ${prefix}artinama
-│⭔ ${prefix}ramaljodoh
-│⭔ ${prefix}ramaljodohbali
-│⭔ ${prefix}suamiistri
-│⭔ ${prefix}ramalcinta
-│⭔ ${prefix}cocoknama
-│⭔ ${prefix}pasangan
-│⭔ ${prefix}jadiannikah
-│⭔ ${prefix}sifatusaha
-│⭔ ${prefix}rezeki
-│⭔ ${prefix}pekerjaan
-│⭔ ${prefix}nasib
-│⭔ ${prefix}penyakit
-│⭔ ${prefix}tarot
-│⭔ ${prefix}fengshui
-│⭔ ${prefix}haribaik
-│⭔ ${prefix}harisangar
-│⭔ ${prefix}harisial
-│⭔ ${prefix}nagahari
-│⭔ ${prefix}arahrezeki
-│⭔ ${prefix}peruntungan
-│⭔ ${prefix}weton
-│⭔ ${prefix}karakter
-│⭔ ${prefix}keberuntungan
-│⭔ ${prefix}memancing
-│⭔ ${prefix}masasubur
-│⭔ ${prefix}zodiak
-│⭔ ${prefix}shio
-│
-└───────⭓
-
-┌──⭓ *Convert Menu*
-│
-│⭔ ${prefix}toimage
-│⭔ ${prefix}sticker
-│⭔ ${prefix}tovideo
-│⭔ ${prefix}togif
-│⭔ ${prefix}tourl
-│
-└───────⭓
-
-┌──⭓ *Main Menu*
-│
-│⭔ ${prefix}ping
-│⭔ ${prefix}owner
-│⭔ ${prefix}menu / ${prefix}help / ${prefix}?
-│⭔ ${prefix}delete
-│⭔ ${prefix}infochat
-│⭔ ${prefix}quoted
-│⭔ ${prefix}listpc
-│⭔ ${prefix}listgc
-│⭔ ${prefix}listonline
-│
-└───────⭓
-
-┌──⭓ *Database Menu*
-│
-│⭔ ${prefix}setcmd
-│⭔ ${prefix}listcmd
-│⭔ ${prefix}delcmd
-│⭔ ${prefix}lockcmd
-│⭔ ${prefix}addmsg
-│⭔ ${prefix}listmsg
-│⭔ ${prefix}getmsg
-│⭔ ${prefix}delmsg
-│
-└───────⭓
-
-┌──⭓ *Owner Menu*
-│
-│⭔ ${prefix}chat [option]
-│⭔ ${prefix}join [link]
-│⭔ ${prefix}leave
-│⭔ ${prefix}block @user
-│⭔ ${prefix}unblock @user
-│⭔ ${prefix}bcgroup
-│⭔ ${prefix}bcall
-│
-└───────⭓
+*𝑮𝒓𝒐𝒖𝒑 𝑴𝒆𝒏𝒖* 
+き⃟🐬${prefix}𝒍𝒊𝒏𝒌𝒈𝒓𝒐𝒖𝒑 
+き⃟🐬${prefix}𝒆𝒑𝒉𝒆𝒎𝒆𝒓𝒂𝒍 [𝒐𝒑𝒕𝒊𝒐𝒏] 
+き⃟🐬${prefix}𝒔𝒆𝒕𝒑𝒑 
+き⃟🐬${prefix}𝒔𝒆𝒕𝒏𝒂𝒎𝒆 [𝒕𝒆𝒙𝒕] 
+き⃟🐬${prefix}𝒈𝒓𝒐𝒖𝒑 [𝒐𝒑𝒕𝒊𝒐𝒏] 
+き⃟🐬${prefix}𝒂𝒅𝒅 @𝒖𝒔𝒆𝒓 
+き⃟🐬${prefix}𝒌𝒊𝒄𝒌 @𝒖𝒔𝒆𝒓 
+き⃟🐬${prefix}𝒑𝒓𝒐𝒎𝒐𝒕𝒆 @𝒖𝒔𝒆𝒓 
+き⃟🐬${prefix}𝒅𝒆𝒎𝒐𝒕𝒆 @𝒖𝒔𝒆𝒓 
+*𝑫𝒐𝒘𝒏𝒍𝒐𝒂𝒅𝒆𝒓 𝑴𝒆𝒏𝒖* 
+き⃟🐬${prefix}𝒕𝒊𝒌𝒕𝒐𝒌𝒏𝒐𝒘𝒎 [𝒖𝒓𝒍] 
+き⃟🐬${prefix}𝒕𝒊𝒌𝒕𝒐𝒌𝒘𝒎 [𝒖𝒓𝒍] 
+き⃟🐬${prefix}𝒕𝒊𝒌𝒕𝒐𝒌𝒎𝒑3 [𝒖𝒓𝒍] 
+き⃟🐬${prefix}𝒊𝒏𝒔𝒕𝒂𝒈𝒓𝒂𝒎 [𝒖𝒓𝒍] 
+き⃟🐬${prefix}𝒊𝒈2 [𝒖𝒓𝒍] 
+き⃟🐬${prefix}𝒊𝒈𝒓𝒆𝒆𝒍𝒔 [𝒖𝒓𝒍] 
+き⃟🐬${prefix}𝒊𝒈𝒕𝒗 [𝒖𝒓𝒍] 
+き⃟🐬${prefix}𝒕𝒘𝒊𝒕𝒕𝒆𝒓 [𝒖𝒓𝒍] 
+き⃟🐬${prefix}𝒕𝒘𝒊𝒕𝒕𝒆𝒓𝒎𝒑3 [𝒖𝒓𝒍] 
+き⃟🐬${prefix}𝒇𝒂𝒄𝒆𝒃𝒐𝒐𝒌 [𝒖𝒓𝒍] 
+き⃟🐬${prefix}𝒑𝒊𝒏𝒕𝒆𝒓𝒆𝒔𝒕𝒅𝒍 [𝒖𝒓𝒍] 
+き⃟🐬${prefix}𝒚𝒕𝒎𝒑3 [𝒖𝒓𝒍] 
+き⃟🐬${prefix}𝒚𝒕𝒎𝒑4 [𝒖𝒓𝒍] 
+き⃟🐬${prefix}𝒈𝒆𝒕𝒎𝒖𝒔𝒊𝒄 [𝒒𝒖𝒆𝒓𝒚] 
+き⃟🐬${prefix}𝒈𝒆𝒕𝒗𝒊𝒅𝒆𝒐 [𝒒𝒖𝒆𝒓𝒚] 
+*𝑺𝒆𝒂𝒓𝒄𝒉 𝑴𝒆𝒏𝒖* 
+き⃟🐬${prefix}𝒑𝒍𝒂𝒚 [𝒒𝒖𝒆𝒓𝒚] 
+き⃟🐬${prefix}𝒚𝒕𝒔 [𝒒𝒖𝒆𝒓𝒚] 
+き⃟🐬${prefix}𝒑𝒊𝒏𝒕𝒆𝒓𝒆𝒔𝒕 [𝒒𝒖𝒆𝒓𝒚] 
+き⃟🐬${prefix}𝒘𝒂𝒍𝒍𝒑𝒂𝒑𝒆𝒓 [𝒒𝒖𝒆𝒓𝒚] 
+き⃟🐬${prefix}𝒘𝒊𝒌𝒊𝒎𝒆𝒅𝒊𝒂 [𝒒𝒖𝒆𝒓𝒚] 
+き⃟🐬${prefix}𝒚𝒕𝒔𝒆𝒂𝒓𝒄𝒉 [𝒒𝒖𝒆𝒓𝒚] 
+*𝑹𝒂𝒏𝒅𝒐𝒎 𝑴𝒆𝒏𝒖* 
+き⃟🐬${prefix}𝒑𝒐𝒓𝒏𝒐 
+き⃟🐬${prefix}𝒉𝒆𝒏𝒕𝒂𝒊 
+き⃟🐬${prefix}𝒒𝒖𝒐𝒕𝒆𝒔𝒂𝒏𝒊𝒎𝒆 
+き⃟🐬${prefix}𝒎𝒐𝒕𝒊𝒗𝒂𝒔𝒊 
+き⃟🐬${prefix}𝒅𝒊𝒍𝒂𝒏𝒒𝒖𝒐𝒕𝒆 
+き⃟🐬${prefix}𝒃𝒖𝒄𝒊𝒏𝒒𝒖𝒐𝒕𝒆 
+き⃟🐬${prefix}𝒌𝒂𝒕𝒂𝒔𝒆𝒏𝒋𝒂 
+き⃟🐬${prefix}𝒑𝒖𝒊𝒔𝒊 
+*𝑰𝒎𝒂𝒈𝒆 𝑴𝒆𝒏𝒖* 
+き⃟🐬${prefix}𝒂𝒏𝒊𝒎𝒆 
+き⃟🐬${prefix}𝒘𝒂𝒊𝒇𝒖 
+き⃟🐬${prefix}𝒉𝒖𝒔𝒃𝒖 
+き⃟🐬${prefix}𝒏𝒆𝒌𝒐 
+き⃟🐬${prefix}𝒔𝒉𝒊𝒏𝒐𝒃𝒖 
+き⃟🐬${prefix}𝒎𝒆𝒈𝒖𝒎𝒊𝒏 
+*𝑮𝒂𝒎𝒆 𝑴𝒆𝒏𝒖* 
+き⃟🐬${prefix}𝒇𝒂𝒎𝒊𝒍𝒚100 
+き⃟🐬${prefix}𝒕𝒆𝒃𝒂𝒌 [𝒐𝒑𝒕𝒊𝒐𝒏] 
+き⃟🐬${prefix}𝒎𝒂𝒕𝒉 [𝒎𝒐𝒅𝒆] 
+*𝑷𝒓𝒊𝒎𝒃𝒐𝒏 𝑴𝒆𝒏𝒖* 
+き⃟🐬${prefix}𝒏𝒐𝒎𝒐𝒓𝒉𝒐𝒌𝒊 
+き⃟🐬${prefix}𝒂𝒓𝒕𝒊𝒎𝒊𝒎𝒑𝒊 
+き⃟🐬${prefix}𝒂𝒓𝒕𝒊𝒏𝒂𝒎𝒂 
+き⃟🐬${prefix}𝒓𝒂𝒎𝒂𝒍𝒋𝒐𝒅𝒐𝒉 
+き⃟🐬${prefix}𝒓𝒂𝒎𝒂𝒍𝒋𝒐𝒅𝒐𝒉𝒃𝒂𝒍𝒊 
+き⃟🐬${prefix}𝒔𝒖𝒂𝒎𝒊𝒊𝒔𝒕𝒓𝒊 
+き⃟🐬${prefix}𝒓𝒂𝒎𝒂𝒍𝒄𝒊𝒏𝒕𝒂 
+き⃟🐬${prefix}𝒄𝒐𝒄𝒐𝒌𝒏𝒂𝒎𝒂 
+き⃟🐬${prefix}𝒑𝒂𝒔𝒂𝒏𝒈𝒂𝒏 
+き⃟🐬${prefix}𝒋𝒂𝒅𝒊𝒂𝒏𝒏𝒊𝒌𝒂𝒉 
+き⃟🐬${prefix}𝒔𝒊𝒇𝒂𝒕𝒖𝒔𝒂𝒉𝒂 
+き⃟🐬${prefix}𝒓𝒆𝒛𝒆𝒌𝒊 
+き⃟🐬${prefix}𝒑𝒆𝒌𝒆𝒓𝒋𝒂𝒂𝒏 
+き⃟🐬${prefix}𝒏𝒂𝒔𝒊𝒃 
+き⃟🐬${prefix}𝒑𝒆𝒏𝒚𝒂𝒌𝒊𝒕 
+き⃟🐬${prefix}𝒕𝒂𝒓𝒐𝒕 
+き⃟🐬${prefix}𝒇𝒆𝒏𝒈𝒔𝒉𝒖𝒊 
+き⃟🐬${prefix}𝒉𝒂𝒓𝒊𝒃𝒂𝒊𝒌 
+き⃟🐬${prefix}𝒉𝒂𝒓𝒊𝒔𝒂𝒏𝒈𝒂𝒓 
+き⃟🐬${prefix}𝒉𝒂𝒓𝒊𝒔𝒊𝒂𝒍 
+き⃟🐬${prefix}𝒏𝒂𝒈𝒂𝒉𝒂𝒓𝒊 
+き⃟🐬${prefix}𝒂𝒓𝒂𝒉𝒓𝒆𝒛𝒆𝒌𝒊 
+き⃟🐬${prefix}𝒑𝒆𝒓𝒖𝒏𝒕𝒖𝒏𝒈𝒂𝒏 
+き⃟🐬${prefix}𝒘𝒆𝒕𝒐𝒏 
+き⃟🐬${prefix}𝒌𝒂𝒓𝒂𝒌𝒕𝒆𝒓 
+き⃟🐬${prefix}𝒌𝒆𝒃𝒆𝒓𝒖𝒏𝒕𝒖𝒏𝒈𝒂𝒏 
+き⃟🐬${prefix}𝒎𝒆𝒎𝒂𝒏𝒄𝒊𝒏𝒈 
+き⃟🐬${prefix}𝒎𝒂𝒔𝒂𝒔𝒖𝒃𝒖𝒓 
+き⃟🐬${prefix}𝒛𝒐𝒅𝒊𝒂𝒌 
+き⃟🐬${prefix}𝒔𝒉𝒊𝒐 
+*𝑪𝒐𝒏𝒗𝒆𝒓𝒕 𝑴𝒆𝒏𝒖* 
+き⃟🐬${prefix}𝒕𝒐𝒊𝒎𝒂𝒈𝒆 
+き⃟🐬${prefix}𝒔𝒕𝒊𝒄𝒌𝒆𝒓 
+き⃟🐬${prefix}𝒕𝒐𝒗𝒊𝒅𝒆𝒐 
+き⃟🐬${prefix}𝒕𝒐𝒈𝒊𝒇 
+き⃟🐬${prefix}𝒕𝒐𝒖𝒓𝒍 
+*𝑴𝒂𝒊𝒏 𝑴𝒆𝒏𝒖* 
+き⃟🐬${prefix}𝒑𝒊𝒏𝒈 
+き⃟🐬${prefix}𝒐𝒘𝒏𝒆𝒓 
+き⃟🐬${prefix}𝒎𝒆𝒏𝒖 / ${prefix}𝒉𝒆𝒍𝒑 / ${prefix}? 
+き⃟🐬${prefix}𝒅𝒆𝒍𝒆𝒕𝒆 
+き⃟🐬${prefix}𝒊𝒏𝒇𝒐𝒄𝒉𝒂𝒕 
+き⃟🐬${prefix}𝒒𝒖𝒐𝒕𝒆𝒅 
+き⃟🐬${prefix}𝒍𝒊𝒔𝒕𝒑𝒄 
+き⃟🐬${prefix}𝒍𝒊𝒔𝒕𝒈𝒄 
+き⃟🐬${prefix}𝒍𝒊𝒔𝒕𝒐𝒏𝒍𝒊𝒏𝒆 
+*𝑫𝒂𝒕𝒂𝒃𝒂𝒔𝒆 𝑴𝒆𝒏𝒖* 
+き⃟🐬${prefix}𝒔𝒆𝒕𝒄𝒎𝒅 
+き⃟🐬${prefix}𝒍𝒊𝒔𝒕𝒄𝒎𝒅 
+き⃟🐬${prefix}𝒅𝒆𝒍𝒄𝒎𝒅 
+き⃟🐬${prefix}𝒍𝒐𝒄𝒌𝒄𝒎𝒅 
+き⃟🐬${prefix}𝒂𝒅𝒅𝒎𝒔𝒈 
+き⃟🐬${prefix}𝒍𝒊𝒔𝒕𝒎𝒔𝒈 
+き⃟🐬${prefix}𝒈𝒆𝒕𝒎𝒔𝒈 
+き⃟🐬${prefix}𝒅𝒆𝒍𝒎𝒔𝒈
+*𝑶𝒘𝒏𝒆𝒓 𝑴𝒆𝒏𝒖*
+き⃟🐬${prefix}𝒄𝒉𝒂𝒕 [𝒐𝒑𝒕𝒊𝒐𝒏] 
+き⃟🐬${prefix}𝒋𝒐𝒊𝒏 [𝒍𝒊𝒏𝒌] 
+き⃟🐬${prefix}𝒍𝒆𝒂𝒗𝒆 
+き⃟🐬${prefix}𝒃𝒍𝒐𝒄𝒌 @𝒖𝒔𝒆𝒓 
+き⃟🐬${prefix}𝒖𝒏𝒃𝒍𝒐𝒄𝒌 @𝒖𝒔𝒆𝒓 
+き⃟🐬${prefix}𝒃𝒄𝒈𝒓𝒐𝒖𝒑 
+き⃟🐬${prefix}𝒃𝒄𝒂𝒍𝒍
 `
                 let message = await prepareWAMessageMedia({ image: fs.readFileSync('./lib/hisoka.jpg') }, { upload: hisoka.waUploadToServer })
                 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -1469,13 +1426,13 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             hydratedContentText: anu,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    displayText: 'GITHUB',
+                                    url: 'https://github.com/BotWhatsapp12/'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 812-2985-9085'
                                 }
                             }, {
                                 quickReplyButton: {
