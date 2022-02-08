@@ -1,1 +1,1 @@
-worker: npm i -g typescript && npm install && npm start
+worker: node index

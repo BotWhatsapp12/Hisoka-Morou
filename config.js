@@ -1,4 +1,4 @@
-/**
+﻿/**
    * Create By Dika Ardnt.
    * Contact Me on wa.me/6288292024190
    * Follow https://github.com/DikaArdnt
@@ -9,29 +9,31 @@ const chalk = require('chalk')
 
 // Website Api
 global.APIs = {
-	zenz: 'https://zenzapi.xyz',
+	dappa: 'https://api.dapuhy.ga',
 }
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapi.xyz': '87d718524e2a',
+	'https://api.dapuhy.ga': 'DappaAnjing',
 }
 
 // Other
-global.owner = ['6281229859085','6281229859085','6281229859085']
-global.packname = 'GuraBotz by ArulGanz'
-global.author = '\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'
+global.owner = ['6281276698054']
+global.packname = ' '
+global.author = 
 global.sessionName = 'hisoka'
 global.prefa = ['','!','.','🐦','🐤','🗿']
-global.sp = '⭔'
+global.sp = '🐟'
 global.mess = {
     admin: 'Fitur Khusus Admin Group!',
     botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
     owner: 'Fitur Khusus Owner Bot',
     group: 'Fitur Digunakan Hanya Untuk Group!',
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
-    bot: 'Fitur Khusus Pengguna Nomor Bot',
+	bot: 'Fitur Khusus Pengguna Nomor Bot',
     wait: 'Loading...',
+	lockCmd: 'Fitur Tidak Diaktifkan Oleh Owner!',
+	example1: 'Selamat Datang @user Di Group @subject Jangan Lupa Baca Rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
 }
 global.thumb = fs.readFileSync('./lib/hisoka.jpg')
 
